@@ -6,7 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    Track the Robot
+    <h1>Track the robot</h1>
+    <p>This challege is from <a href="https://edabit.com/">Edabit</a>, the challenge is called <a href="https://edabit.com/challenge/jfpfpH6w42tZeRo2T"> Track the robot Part 2</a></p><br>
+
+    <h2>Instructions</h2>
+    <p>This robot roams around a 2D grid. It starts at (0, 0) facing North. After each time it moves, the robot rotates 90 degrees clockwise. Given the amount the robot has moved each time, you have to calculate the robot's final position.</p><br>
+    <p>To illustrate, if the robot is given the movements 20, 30, 10, 40 then it will move:</p><br>
+
+    <ul>
+        <li> 20 steps North, now at (0, 20)</li>
+        <li>30 steps East, now at (30, 20)</li>
+        <li>10 steps South. now at (30, 10)</li>
+        <li>40 steps West, now at (-10, 10)</li>
+    </ul>
+    <p>...and will end up at coordinates (-10, 10).</p><br>
+
+    <h2>Examples</h2>
+
+    <p>trackRobot(20, 30, 10, 40) ➞ [-10, 10]</p>
+    <p>trackRobot() ➞ [0, 0]
+        // No movement means the robot stays at (0, 0).</p>
+        <p>trackRobot(-10, 20, 10) ➞ [20, -20]
+            // The amount to move can be negative.</p> <br>
+
+     <h2>Notes</h2> 
+     <p>Each movement is an integer (whole number).</p>   
+     
+     <h3>To Solve the problem, open the console and run the function "trackRobot", passing the robot's movements as arguments.</h3>
+
     <script src="app.js"></script>
 </body>
 </html>

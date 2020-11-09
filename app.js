@@ -11,7 +11,7 @@ const posSeperate = (arr)=>{
     return {evenArr, oddArr};
 }
 
-const trackTheRobot = (...args)=>{
+const trackRobot = (...args)=>{
     // console.log(args);
     const newObj = posSeperate(args);
     const xArr = newObj.evenArr;
@@ -20,7 +20,7 @@ const trackTheRobot = (...args)=>{
     const xcord = findCoord(xArr);
     const ycord = findCoord(yArr);
 
-    console.log(xcord,ycord)
+    return [xcord,ycord];
 }
 
 

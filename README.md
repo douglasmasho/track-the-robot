@@ -2,7 +2,7 @@
 
 This challege is from [Edabit](https://edabit.com/), the challenge is called [Track the robot Part 2](https://edabit.com/challenge/jfpfpH6w42tZeRo2T)
 
-## Instructions
+## 
 
 This robot roams around a 2D grid. It starts at (0, 0) facing North. After each time it moves, the robot rotates 90 degrees clockwise. Given the amount the robot has moved each time, you have to calculate the robot's final position.
 
